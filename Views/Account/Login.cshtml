@@ -1,0 +1,33 @@
+@model auth.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+@{
+    var hash = ViewData["Hash"] as string;
+}
+
+
+<h2>Login</h2>
+<p>Generated Hash: <strong>@hash</strong></p>
+<form asp-action="Login" method="post">
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="RememberMe" class="form-check-input" />
+        <label asp-for="RememberMe" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
