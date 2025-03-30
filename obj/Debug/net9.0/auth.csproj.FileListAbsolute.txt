@@ -281,3 +281,4 @@ D:\pp\final\auth\obj\Debug\net9.0\compressed\4gicl6ike5-cqu3aupeo3.gz
 D:\pp\final\auth\obj\Debug\net9.0\compressed\vs9135ysyk-kgm1xd49p2.gz
 D:\pp\final\auth\obj\Debug\net9.0\compressed\1218gb38ik-m3i9f6419i.gz
 D:\pp\final\auth\obj\Debug\net9.0\compressed\lrh2mth2vn-tezurnafit.gz
+D:\pp\final\auth\obj\Debug\net9.0\auth.sourcelink.json
